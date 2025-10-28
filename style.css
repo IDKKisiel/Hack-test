@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(0, 15, 3);
+    font-family: Roboto Mono;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1635728153590-f9c4f75cf78d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGltaW5hbCUyMHNwYWNlc3xlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.roboto-mono-czcionka {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#kontener{
+    width: 90%;
+    max-width: 550px;
+    height: 700px;
+    margin: 40px auto 0 auto;
+    box-shadow: 1px 1px 10px 5px rgb(0, 10, 0);
+    background-color: rgb(0, 46, 34);
+    padding-top: 50px;
+    opacity: 0.9;
+    position: relative;
+}
+
+#box{
+    width: 90%;
+    height: 670px;
+    background-color: rgb(0, 34, 25);
+    margin: 0 auto;
+
+    display: flex;              
+    justify-content: center;    
+    align-items: center; 
+}
+
+.idiota{
+    position: absolute;
+    top: 1px;
+    left: 5%;
+    font-size: 14px;
+    color: rgb(1, 123, 93);
+}
+
+.krzyzyk{
+    position: absolute;
+    top: 1px;
+    left: 93%;
+    font-size: 14px;
+    color: rgb(1, 123, 93);
+}
+
+.zdjecie{
+    width: 120px;
+    margin-bottom: 150px;
+}
+
+.tekst{
+    position: absolute;
+    bottom: 290px;              
+    text-align: center;
+    color: #64d162;
+    font-size: 18px;
+}
+
+.loading-container {
+    width: 470px;
+    height: 10px;
+    background-color: #002f27;
+    overflow: hidden;
+    margin-bottom: -625px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: absolute;
+}
+
+.loading-bar {
+    height: 100%;
+    width: 100%; 
+    background-color:#64d162;
+    transition: width 0.05s linear;
+}
+
+.loading-bar2 {
+    height: 100%;
+    width: 100%; 
+    background-color:#64d162;
+    transition: width 0.05s linear;
+}
+
+.przycisk{
+    position: absolute;
+    margin-bottom: -500px;
+    background-color: rgb(0, 92, 48);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    color: #000000;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    font-weight:bold;
+}
+.przycisk:hover{
+    background-color: #172817;
+    color: #385838;
+}
+
+.hidden {
+    display: none;
+}
+
+.hakowanie {
+    position: absolute;
+    top: 70px;   
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.linia{
+    position: absolute;
+    width: 80%;
+    color: #00402f;
+    border-style: solid;
+    top: 580px;
+}
+
+.wpisywanie{
+    position: absolute;
+    top: 620px;
+    color: white;
+    width: 35%;
+    height: 50px;
+    background-color: #002f27;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.8);
+    border: none;
+    text-align: center;
+}
+
+.wpisywanie:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
