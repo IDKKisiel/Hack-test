@@ -1,5 +1,5 @@
 let currentStep = 0;
-const totalSteps = 5;
+const totalSteps = 10;
 let dzialaniaList = [];
 let hakowanieZakonczone = false;
 
@@ -299,4 +299,5 @@ function startHack2() {
     box.appendChild(loadingContainer);
 
     ladowanie();
+
 }
